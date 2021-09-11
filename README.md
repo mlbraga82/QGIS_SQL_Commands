@@ -1,5 +1,5 @@
 # QGIS_SQL_Commands
-## Comando para cálculo de estimativa de recepção em dBm usando os dados da ANATEL (ANATEL2QGIS)
+## Comando para cálculo de estimativa de recepção em dBm usando os dados da ANATEL ([ANATEL2QGIS](https://github.com/mlbraga82/anatel2qgis))
 <b>requisitos:</b>
 - Colocar todas as camadas em um arquivo gpkg
 - nome das camadas ("anatel" e "sensor")
