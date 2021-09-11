@@ -10,3 +10,7 @@ a.TransmissaoInicial as freq,a.NomeEntidade as entidade, a.geom,a.PotenciaOperac
 round(10*log(a.PotenciaOperacao)+30-20*log(st_distance(a.geom,b.geom)/1000)-20*log(a.TransmissaoInicial)+32.44,2) as pwr_rx_dBm
  from "anatel" as a, "sensor" as b where freq = '880.0';	
  ```
+ 
+ ## Referências
+ 1. [Friss Equation](https://en.wikipedia.org/wiki/Friis_transmission_equation)
+ 2. [Free Space Loss - Wikipedia](https://en.wikipedia.org/wiki/Free-space_path_loss)
